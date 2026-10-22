@@ -1,12 +1,12 @@
 # Incognito Backend
 
-The server half of [Incognito](https://github.com/titaniumnetwork-dev/Incognito-old), split out from the original monorepo. It runs the [Corrosion](https://github.com/titaniumnetwork-dev/Corrosion) web proxy and the small API the frontend calls. It serves no HTML; the UI lives in the **incognito-frontend** repo.
+The server half of [Incognito](https://github.com/titaniumnetwork-dev/Incognito-old), split out from the original monorepo. It runs the [Corrosion](https://github.com/titaniumnetwork-dev/Corrosion) web proxy and the small API the frontend calls. It serves no HTML; the UI lives in [incog-frontend](https://github.com/viztrrx/incog-frontend).
 
 ## Setup
 
 ```sh
-git clone <this repo> incognito-backend
-cd incognito-backend
+git clone https://github.com/viztrrx/incog-backend
+cd incog-backend
 npm install
 npm start
 ```
